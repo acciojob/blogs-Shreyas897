@@ -32,8 +32,8 @@ public class ImageService {
     }
 
     public void deleteImage(Integer id){
-        Image image=imageRepository2.findById(id).get();
-        imageRepository2.delete(image);
+        //Image image=imageRepository2.findById(id).get();
+        imageRepository2.deleteById(id);
 
     }
 
